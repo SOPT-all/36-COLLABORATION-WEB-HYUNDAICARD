@@ -39,6 +39,7 @@ export const filterInnerFrame = style({
   color: themeVars.color.gray800,
   padding: "0.1rem",
   boxSizing: "border-box",
+  flex: "1",
 });
 
 export const frameSizes = styleVariants({
@@ -127,6 +128,12 @@ export const innerFrame = style({
   alignItems: "center",
   ...fontStyles.subtitle_semibold_15,
   fontWeight: "400",
+  flex: "1",
+});
+
+export const contentS = style({
+  flex: "1",
+  justifyItems: "center",
 });
 
 export const closeButton = style({

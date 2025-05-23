@@ -4,6 +4,7 @@ import { color } from "src/styles/tokens/color.css";
 import {
   baseFrame,
   closeButton,
+  contentS,
   filterBaseFrame,
   filterInnerFrame,
   frameSizes,
