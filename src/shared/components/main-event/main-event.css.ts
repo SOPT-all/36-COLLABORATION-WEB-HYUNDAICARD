@@ -11,13 +11,9 @@ export const container = style({
   justifyContent: "flex-start",
   boxSizing: "border-box",
   gap: "1.3rem",
-});
-
-export const imageContainer = style({
-  width: "100%",
-  height: "22.1rem",
   paddingTop: "1rem",
   transition: "padding 150ms linear",
+
   selectors: {
     "&:hover": {
       paddingTop: "0rem",
@@ -25,10 +21,16 @@ export const imageContainer = style({
   },
 });
 
+export const imageContainer = style({
+  width: "100%",
+  height: "22.1rem",
+});
+
 export const image = style({
   width: "100%",
   height: "100%",
   objectFit: "cover",
+  borderRadius: "1.2rem",
 });
 
 export const textContainer = style({
